@@ -34,7 +34,42 @@ $programa=uc($programa);
 			
 			
 		}
-		
+		print $parametro->header("text/html");
+		print "<!DOCTYPE HTML>\n";
+		print "<html>\n";
+		print "<head>\n";
+		print '<link rel="stylesheet" type="text/css" href="../estilo-perl.css">';
+		print "<title>UNIVERSIDADES ENCONTRADAS</title>\n";
+		print "</head>\n";
+		print "<body>\n";
+			print "<nav>
+			<a href='../index.html'><input class='boton' type='button' value='REGRESAR'><a/><br>
+			</nav>";
+			print "<div>";
+			print "<table>\n";
+			print "<tr>\n
+					<br>
+
+					<th><h3>NOMBRE</h3></th>\n
+					<th><h3>LICENCIA</h3></th>\n
+					<th><h3>DEPARTAMENTO</h3></th>\n
+					<th><h3>PROGRAMA</h3></th>\n";
+				for(my $i=0;$i<@list;$i++){
+					my @aux= split(',',$list[$i]);
+					print "<tr>";
+					print "<td>$aux[0]</td>";
+					print "<td>$aux[1]</td>";
+					print "<td>$aux[2]</td>";
+					print "<td>$aux[3]</td>";
+					print "</tr>";
+					
+				}
+			print "</table\n>";
+			print "</div\n>";
+			
+		print "</body>\n";
+		print "</html>";
+		close(IN);
 
 
 
