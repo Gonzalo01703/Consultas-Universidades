@@ -43,7 +43,7 @@ $programa=uc($programa);
 		print "</head>\n";
 		print "<body>\n";
 			print "<nav>
-			<a href='../index.html'><input class='boton' type='button' value='REGRESAR'><a/><br>
+			<a href='../index.html'><input class='boton' type='button' value='VOLVER A LA PAGINA PRINCIPAL'><a/><br>
 			</nav>";
 			print "<div>";
 			print "<table>\n";
