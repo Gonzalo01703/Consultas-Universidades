@@ -8,7 +8,7 @@ body{
   color:white;
 }
 .boton{
-    width: 20%;
+    
     
   
     
@@ -21,14 +21,14 @@ body{
     transition: 1s;   
     background: #20274a;
     margin: auto;
-    width: 100px;
+    width: 300px;
 	  height: 50px;
     border: 0px solid #0a1239;
     
 }
 .boton:hover{
-  background: #0a1239;
-  box-shadow: 0 0 80px #0a1239,0 0 40px #0a1239,0 0 80px #0a1239; 
+  background:#0a1239;
+  box-shadow: 0 0 80px #0a1239,0 0 40px hsl(268, 79%, 43%),0 0 80px #0a1239; 
 }
 table{
   margin: auto;

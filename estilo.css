@@ -45,8 +45,8 @@ body{
     
 }
 .boton:hover{
-    background: #0a1239;
-    box-shadow: 0 0 80px #0a1239,0 0 40px #0a1239,0 0 80px #0a1239; 
+    background: #171256 ;
+    box-shadow: 0 0 80px #171256,0 0 40px #6017c6,0 0 80px #1b0ddd; 
 }
 table{
   margin: auto;
