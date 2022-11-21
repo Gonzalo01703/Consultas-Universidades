@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  
+  <link rel="stylesheet" type="text/css" href="./estilo1.css">
+  <title>Consutas De Universidades</title>
+</head>
+<body>
+  <div class="entrada">
+    <form action="./cgi-bin/busqueda.pl" method="GET">
+      <table>
+        <caption><h2>BUSQUEDA DE UNIVERSIDADES LICENCIADAS DEL PERU</h2></caption>
+        <tr>
+          <td><div><label><h3>NOMBRE DE UNIVERSIDAD</h3></label></div></td>
+          <td><input class="a" type="text" name="nombre" placeholder="INGRESE NOMBRE DE LA UNIVERSIDAD"></td>
+        </tr>
+        <tr>
+          <td><div><label><h3>PERIODO DE LICENCIAMIENTO</h3></label></div></td>
+          <td><input class="a" type="text" name="licencia" placeholder="iNGRESE PERIODO DE LICENCIAMIENTO"></td>
+        </tr>
+        <tr>
+          <td><div><label><h3>DEPARTAMENTO LOCAL</h3></label></div></td>
+          <td><input class="a" type="text" name="departamento" placeholder="INGRESE DEPARTAMENTO LOCAL"></td>
+        </tr>
+        <tr>
+          <td><div><label><h3>DENOMINACION DE PROGRAMA</h3></label></div></td>
+          <td><input class="a" type="text" name="programa" placeholder="INGRESE LA DENOMINACION DEL PROGRAMA"></td>
+        </tr>
+		<tr>
+		  <td colspan="2"><input class="boton" type="submit" value = "CONSULTAR" ></td>
+	
+		</tr>
+      </table>
+    </form>
+  </div>
+</body>
+</html>
